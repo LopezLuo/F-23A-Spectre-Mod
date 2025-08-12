@@ -1,7 +1,7 @@
 # ThunderStruck Simulations F-23A Mod for DCS World
-![Release](https://img.shields.io/github/v/release/ThunderStruck-Simulations/F-23A-Spectre-Mod?style=plastic) TODO: Change to the actual public repo. [![Discord](https://img.shields.io/badge/Discord-Join%20Us!-5865F2?logo=discord&style=plastic)](https://discord.gg/Areu495MXr) ![Flight Model](https://img.shields.io/badge/Flight%20Model-SFM-blue?style=plastic) ![Cockpit](https://img.shields.io/badge/Cockpit-Clickable-blue?style=plastic)
+![Release](https://img.shields.io/github/v/release/ThunderStruck-Simulations/F-23A-Spectre-Mod?style=plastic) [![Discord](https://img.shields.io/badge/Discord-Join%20Us!-5865F2?logo=discord&style=plastic)](https://discord.gg/Areu495MXr) ![Flight Model](https://img.shields.io/badge/Flight%20Model-SFM-blue?style=plastic) ![Cockpit](https://img.shields.io/badge/Cockpit-Clickable-blue?style=plastic)
 
-Hello and welcome to you whoever you are! This is the GitHub repository of the F-23A mod for DCS World. To download the latest release of the mod click [here (TODO: Change to the release link)](https://google.com).
+Hello and welcome to you whoever you are! This is the GitHub repository of the F-23A mod for DCS World. To download the latest release of the mod click [here](https://github.com/ThunderStruck-Simulations/F-23A-Spectre-Mod/releases).
 
 **NOTE:** The F-15C Flaming Cliffs (included in DCS: Flaming Cliffs 2024) DLC is needed for this mod to work. You will also need to load the F-15C cockpit once per game start to be able to load the F-23A cockpit (this is an unfixable* bug by ED).
 
@@ -24,12 +24,12 @@ HiMASTERS Art, growlingsidewinder, longshot_dcs, blackfalco & spino2473.
 
 ## Installation
 
-1. Download the latest release at [this link (TODO: Change to the release link)](https://google.com) select **assets** -> F-23A.zip
-2. Open the zip and select the F-23A folder for copying or moving.
+1. Download the latest release at [this link](https://github.com/ThunderStruck-Simulations/F-23A-Spectre-Mod/releases) -> F-23A.7z
+2. Open the 7zip and select the F-23A folder for copying or moving.
 3. Navigate to `C:\Users\%username%\Saved Games\DCS` (username is your Windows username and DCS can be DCS.openbeta). Create the folders `Mods\Aircraft` and paste in the F-23A folder. 
 4. Open DCS and enjoy the mod!
 
-## FAQ TODO: Update faq.
+## FAQ
 **Q: Will the mod be stand alone?**
 A: Not at the moment. Currently, you will need at least the F-15C or FC3/FC2024.
 
