@@ -1,0 +1,25 @@
+F-23A Electrical System Design Doc
+
+Battery Master Switch (BMS) on the lower right instrument panel controls power from the battery to bare essential aircraft systems. 
+It allows the illumination of cockpit lighting, a single MFD and power the APU ECU to allow for APU start. No other system can run off 
+of the Battery Master switch, but the BMS must be on for the aircraft system to operate.
+
+Turning the BMS “off” once engines or APU started should give a master caution light and should prevent further sequential actions 
+in the electrical system from being completed. E.g. if APU is running and the BMS is selected to “off”, engines should not be able 
+to start. The only degradation to the system if other sources of power are online if the BMS is selected to “off”, should be the 
+master caution light. Ex. Engines running and BMS is selected “off”, only a master warning light should illuminate but Gen 1 & 2 
+should continue to power the aircraft normally.
+
+Once the BMS is selected to “on”, the APU can be started. The battery does not power the APU started as that is pneumatic and is 
+a quick start APU (5 seconds to start.) Once the APU is running basic avionic systems can come online however we will keep the 
+FC3 avionics off until an aircraft generator is turned “on”. Ex. the other MFDs will come online, and synoptic pages can be 
+accessed once the APU is running.
+
+The APU is used to start both engines both on the ground and in flight. Once a engine has started, the player can turn on 
+the associated engine generator to connect that generator to the main aircraft bus. Each engine generator has enough power to 
+power the entire aircraft and the FC3 avionics will automatically come online (FC3 power on). Once both engines are running the APU 
+is no longer required and can be shut down. 
+
+Normal operating is for both engine generators and BMS to be on. If an engine should fail in flight, the APU should automatically 
+start to provide additional power. However, in this simulation it will have no discernible effect to the player other than the APU 
+starting. If both engines fail the APU should provide enough power for the FC3 avionics to continue to work (in flight only).

@@ -1,0 +1,33 @@
+﻿F-23A
+F-22A/F-22A.png
+F-23A
+
+
+
+
+Name: F-23A 
+Type: 5th Generation Advanced Tactical Fighter
+Crew: 1
+Length: 21.34 m (70')
+Height: 4.47 m (14.7')
+Wingspan: 13.28 m (43.5')
+Empty Weight: 19,546 kg (43,091 lb)
+Maximum Weight: 39,507 kg (87,095 lb)
+Maximum Speed: Mach 2.2 (1,687mph)
+Powerplant: 2x F119-PW-100 turbofan engines
+
+Fuel Capacity:
+Main: 21,603 lb / 9,799 kg
+
+
+Armament:
+M61A1 Vulcan 20mm gun, 500 rounds
+
+Air to Air Missiles:
+AIM-9X Sidewinder
+AIM-9M Sidewinder
+AIM-120C
+
+Air to Ground Munitions:
+GBU-32 JDAM Joint Direct Attack Munition - Not Available in DCS
+
