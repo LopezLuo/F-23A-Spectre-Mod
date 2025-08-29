@@ -152,10 +152,10 @@ function SetCommand(command, value)
 				end
 			end
 		end
-
+		-- rudder_input for Keyboard users without conflicting with HOTAS users --needs reset value functionality when key is released
 		if command == keys.RudderLeft then 
 			if rudder_input == 0.0 then
-				rudder_input = -1
+				rudder_input =-1.0
 			else
 				rudder_input = 0.0
 			end
@@ -165,7 +165,7 @@ function SetCommand(command, value)
 			if rudder_input == 0.0 then
 				rudder_input = 1.0
 			else
-				rudder_input = 0
+				rudder_input = 0.0
 			end
 		end
 
