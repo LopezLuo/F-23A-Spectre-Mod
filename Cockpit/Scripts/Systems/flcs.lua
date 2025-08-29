@@ -632,6 +632,7 @@ function update()
 
 
 		-- NWS logic with manual rate selection and automatic high rate when airborne
+		nws_speed_scale = calculate_nws_scale(self_ground_speed)
 		local scaled_rudder_input = rudder_input * nws_speed_scale
 
 		-- Use this scaled input for the steering
