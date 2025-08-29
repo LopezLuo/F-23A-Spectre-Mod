@@ -14,6 +14,8 @@ flcs:listen_command(10163) -- Yaw axis
 flcs:listen_command(10164) -- Roll axis
 flcs:listen_command(10165) -- Pitch axis
 flcs:listen_command(10013) -- FLCSTest
+flcs:listen_command(keys.RudderLeft) 
+flcs:listen_command(keys.RudderRight)
 flcs:listen_command(keys.airBrakeOn)
 flcs:listen_command(keys.airBrakeOff)
 flcs:listen_command(keys.planeAirBrake)
@@ -151,6 +153,21 @@ function SetCommand(command, value)
 			end
 		end
 
+		if command == keys.RudderLeft then 
+			if rudder_input == 0.0 then
+				rudder_input = -1
+			else
+				rudder_input = 0.0
+			end
+		end
+
+		if command == keys.RudderRight then 
+			if rudder_input == 0.0 then
+				rudder_input = 1.0
+			else
+				rudder_input = 0
+			end
+		end
 
 		if command == 10163 then
 			rudder_input = value
@@ -631,8 +648,7 @@ function update()
 
 
 
-		-- NWS logic with manual rate selection and automatic high rate when airborne
-		nws_speed_scale = calculate_nws_scale(self_ground_speed)  -- NWS for keyboard users based on ground speed						
+		-- NWS logic with manual rate selection and automatic high rate when airborne					
 		local scaled_rudder_input = rudder_input * nws_speed_scale
 
 		-- Use this scaled input for the steering

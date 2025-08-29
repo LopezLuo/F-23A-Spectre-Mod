@@ -55,6 +55,15 @@ join(res.keyCommands, {
 {down = keys.form_on,	                name = _('Formation Lights On'), 			                    category = _('F-23A Systems')}, 
 {down = keys.form_off,	                name = _('Formation Lights Off'), 			                    category = _('F-23A Systems')},
 {down = keys.nws_rate,	   	    	    name = _('NWS Rate'),	    							        category = _('F-23A Systems')},
+
+------------------------------------------------------------------------------------------------------------------------------------------------------
+
+--F-23A Systems
+{down = keys.RudderLeft,               name = _('Left Rudder'),                                        category = _('F-23A FlightControls')},
+{down = keys.RudderRight,              name = _('Right Rudder'),                                       category = _('F-23A FlightControls')},
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------
+
 --Assigned key custom key binds
 
 {combos = {{key = 'G', reformers = {'RCtrl'}}}, 	down = keys.GearUp,	    				 name = _('Gear Up'),                    category = _('F-23A Systems')},

@@ -75,6 +75,11 @@ keys =
 	r_engine_stop							= __custom_counter(),
 	nws_rate								= __custom_counter(),
 
+		-- ==== Flight controls ====
+
+	RudderLeft						        = __custom_counter(),       --10066
+	RudderRight								= __custom_counter(),
+
 	
 	-------------------------------------------------------
 	--FC3 Commands
