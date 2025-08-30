@@ -69,8 +69,8 @@ join(res.keyCommands,{
 ------------------------------------------------------------------------------------------------------------------------------------------------------
 
 --F-23A Systems
-{down = keys.RudderLeft,               name = _('Left Rudder'),                                        category = _('F-23A FlightControls')},
-{down = keys.RudderRight,              name = _('Right Rudder'),                                       category = _('F-23A FlightControls')},
+{down = keys.RudderLeft,   up = keys.RudderLeft,        name = _('Left Rudder'),                                        category = _('F-23A FlightControls')},
+{down = keys.RudderRight,  up = keys.RudderRight,       name = _('Right Rudder'),                                       category = _('F-23A FlightControls')},
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------
 
